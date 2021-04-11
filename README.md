@@ -1,4 +1,6 @@
 # FTP-using-Java
+# Contributors: @Srivathsavharan, @Shivakumar1705
+
 Creating File Transfer Protocol using Java Socket Programming
 
 # This project is about implementing File Transfer Protocol using Java Socket Programming

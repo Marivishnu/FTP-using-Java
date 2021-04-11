@@ -482,7 +482,7 @@ class GUI implements ActionListener,MouseListener
 			try{
 			  
 			  
-			  s = new Socket(tf1.getText(),Integer.parseInt(tf2.getText()));
+			  s = new Socket(InetAddress.getByName(tf1.getText()),Integer.parseInt(tf2.getText()));
 			  din = new DataInputStream(s.getInputStream());
 			  dout = new DataOutputStream(s.getOutputStream());
 			  
